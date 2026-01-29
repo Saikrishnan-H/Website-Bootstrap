@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>NeST Digital</title>
+    <style>
+      .carousel-img {
+    height: 500px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.carousel-caption {
+    bottom: 20%;
+}
+
+.carousel-caption h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.carousel-caption p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+.section-title {
+    text-align: center;
+    font-style: italic;
+    color: #0d6efd;
+    margin: 40px 0 20px;
+    font-weight: 600;
+}
+
+.success-card {
+    border: none;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.success-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.success-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25);
+}
+
+.card-text {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+        <img src="NeST Icon.jpg" alt="Bootstrap" width="150" height="100">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="task1.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="task2.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="task3.html">Services</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="https://www.gmercyu.edu/images/learn_pages/learn_cisheader.jpg" class="d-block w-100 carousel-img" alt="">
+      <div class="carousel-caption">
+        <h2>Empowering Digital Innovation</h2>
+        <p>Building smarter IT solutions for the future</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="https://blog.coursera.org/wp-content/uploads/2019/03/blog-comp-sci-2.png" class="d-block w-100 carousel-img" alt="">
+      <div class="carousel-caption">
+        <h2>Technology That Scales</h2>
+        <p>Driving growth through intelligent systems</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="https://online.maryville.edu/wp-content/uploads/sites/97/2023/09/swdev.jpg" class="d-block w-100 carousel-img" alt="">
+      <div class="carousel-caption">
+        <h2>Smart IT. Strong Results.</h2>
+        <p>Transforming ideas into digital success</p>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<h1 class="section-title">Success Stories</h1>
+
+<div class="container my-4">
+  <div class="row justify-content-center g-4">
+
+    <div class="col-md-4 col-sm-6">
+      <div class="card success-card">
+        <img src="https://blueintel.ai/images/outer.png" class="card-img-top" alt="">
+        <div class="card-body text-center">
+          <p class="card-text">
+            Intelligent Driver Monitoring with AI-Powered Gesture Control for Safer Cockpits
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+      <div class="card success-card">
+        <img src="https://www.coforge.com/hs-fs/hubfs/Agentic.jpg?width=1813&height=490&upsize=true&upscale=true&name=Agentic.jpg" class="card-img-top" alt="">
+        <div class="card-body text-center">
+          <p class="card-text">
+            System Modernization through AI-Driven Code Refactoring
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+      <div class="card success-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/F-16_June_2008.jpg/1280px-F-16_June_2008.jpg" class="card-img-top" alt="">
+        <div class="card-body text-center">
+          <p class="card-text">
+            Multi-Function Display Development for Fighter Aircraft
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</html>

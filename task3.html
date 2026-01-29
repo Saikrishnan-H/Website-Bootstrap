@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeST Digital</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+      .service-card {
+    height: 100%;
+    border: none;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.service-card img {
+    height: 350px;
+    object-fit: cover;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6); /* dark gradient */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+    </style>
+  </head>
+<body>
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+        <img src="NeST Icon.jpg" alt="Bootstrap" width="150" height="100">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="task1.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="task2.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="task3.html">Services</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+ </nav>
+ <div class="container my-5">
+  <div class="row g-4">
+
+    <div class="col-md-4">
+      <div class="card text-bg-dark service-card">
+        <img src="https://img.freepik.com/free-photo/abstract-cybersecurity-concept-design_23-2151841677.jpg?semt=ais_hybrid&w=740&q=80" class="card-img" alt="">
+        <div class="card-img-overlay overlay">
+          <h5 class="card-title">Cyber Security</h5>
+          <p class="card-text">
+            Secure your digital frontiers with cutting-edge cybersecurity solutions tailored to your business needs.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card text-bg-dark service-card">
+        <img src="https://www.udacity.com/blog/wp-content/uploads/2020/07/Data-Engineer_Blog-scaled.jpeg" class="card-img" alt="">
+        <div class="card-img-overlay overlay">
+          <h5 class="card-title">Data Engineering</h5>
+          <p class="card-text">
+            Leverage data to measure digital transformation outcomes with scalable data solutions.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card text-bg-dark service-card">
+        <img src="https://www.vagdevitechnologies.com/wp-content/uploads/2024/11/DevOps-Training.webp" class="card-img" alt="">
+        <div class="card-img-overlay overlay">
+          <h5 class="card-title">DevOps Solutions</h5>
+          <p class="card-text">
+            Unlock the power of DevOps to streamline workflows, automate delivery, and scale faster.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</html>
